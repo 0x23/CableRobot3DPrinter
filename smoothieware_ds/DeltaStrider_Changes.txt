@@ -1,0 +1,16 @@
+- copy libs/math
+- remove libs/Vector3.h / Vector3.cpp
+- copy armsolution stuff
+- merge Robot.cpp
+	* GCode M665 extension to handle more parameters
+	
+--- EDM changes ---
+- StepTicker.h / StepTicker.cpp
+	* adaptive_feed_scale
+- Conveyor
+	* queue_head_block() now respects flush flag 
+	* added (non blocking) set_flushing method
+	* added volatile qualifier to flush_flag because it may be set from interrupt
+- Robot
+	* added 'stop_immediate_in_progress' flag to stop running segment loops
+	* added methods: on_main_loop, stop_immediately, stop_immediately_finish
