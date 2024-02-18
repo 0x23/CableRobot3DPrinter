@@ -2,6 +2,6 @@
 A fast parallel kinematic 3D printer using cables and winches as actuator.
 
 <div style="display: flex;">
-    <img src="construction/actuator/actuator_overview.jpg" alt="Actuator" height: auto;">
-    <img src="construction/plattform/plattform_overview_top.jpg" alt="Platform" height: auto;">
+    <img src="/construction/actuator/actuator_overview.jpg" alt="Actuator" style="width: 49%; height: auto; border: 1px solid black;">
+    <img src="/construction/plattform/plattform_overview_top.jpg" alt="Platform" style="width: 49%; height: auto; border: 1px solid black;">
 </div>
